@@ -1,0 +1,17 @@
+client_config_file: client_secrets.json
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: mycreds.txt
+get_refresh_token: True
+oauth_scope:
+    - https://www.googleapis.com/auth/drive
+    - https://www.googleapis.com/auth/drive.install
+
+
+
+
+# the folder which you want check old files in
+gdrive_folder_id: "1kOqiS2E0_6rQnOUHSfN8-xNg5iLGQuUy"
+
+# Trash files which are older than [x] Days
+trash_files_older_than: 1
