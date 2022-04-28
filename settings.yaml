@@ -13,5 +13,5 @@ oauth_scope:
 # the folder which you want check old files in
 gdrive_folder_id: "1kOqiS2E0_6rQnOUHSfN8-xNg5iLGQuUy"
 
-# Trash files which are older than [x] Days
-trash_files_older_than: 1
+# Trash files which are older than [x] Minutes
+trash_files_older_than_minutes: 1

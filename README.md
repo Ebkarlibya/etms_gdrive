@@ -9,8 +9,8 @@ Setup:
 
 - open settings.yaml and set the following
 - gdrive_folder_id 'some id' # the folder id which the script will work in
-- trash_files_older_than 30 # any file older than 30 day will be trashed
-
+- trash_files_older_than_minutes 30 # files older than 30 minutes will be trashed
+- python3 gdrive.py
 - set cron job so the script work automatically once every day for example:
 - $ crontab -e
 - the following will run once every 6 hours, and set the correct path of etms_gdrive and python3
