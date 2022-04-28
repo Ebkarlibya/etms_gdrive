@@ -14,4 +14,4 @@ oauth_scope:
 gdrive_folder_id: "1kOqiS2E0_6rQnOUHSfN8-xNg5iLGQuUy"
 
 # Trash files which are older than [x] Minutes
-trash_files_older_than_minutes: 1
+trash_files_older_than_minutes: 43800
