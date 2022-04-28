@@ -38,7 +38,7 @@ def main():
 
     for file in files:
         if (datetime.now() - parse(file["createdDate"]).replace(tzinfo=None)
-            ).seconds / 60 > settings['trash_files_older_than']:
+            ).seconds / 60 > settings['trash_files_older_than_minutes']:
             drive.CreateFile({"id": file["id"]})
             file.Trash()
             print(f"delete: {file['title']}")
